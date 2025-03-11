@@ -24,7 +24,7 @@ Program cannot run without main method i.e, public static void main....
 4.. char - 2 bytes -- single character/letter/ASCII value - single quotes -- 'f'
 5.. string (reference datatype) - varies -- "Hello World"
 6..float - 4 bytes -- 3.14(upto 6-7digits)
-7..long - 8 bytes --
+7..long - 8 bytes -- (used to store long number like speed of lioght as int cannot store large value)
 8..byte - 1 byte --
 9..short - 2 bytes
 char is primitive && string is reference
