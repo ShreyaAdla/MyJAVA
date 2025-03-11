@@ -30,3 +30,8 @@ Program cannot run without main method i.e, public static void main....
 char is primitive && string is reference
 primitive -- 8 types , stores data , holds 1 value, less memory, faster
 refernece -- unlimited(user defined) , stores address , hold more than 1 value, more memory, slower
+**CREATING VARIABLE**
+datatype+vale
+int x;           DECLARATION
+x = 123;         ASSIGNMENT
+int x = 123;     INITIALIZATION
