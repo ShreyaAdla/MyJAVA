@@ -1,19 +1,19 @@
-JAVA INTRODUCTION
+ JAVA INTRODUCTION
 JDK - JAVA DEVELOPMENT KIT - it contains developer tools that help us code
       JRE: JAVA RUNTIME ENV - it contains libraries and tool kits.
           JVM : JAVA VIRTUAL MACHINE -  which translates byte code to machine code 
 
 SOURCE CODE IN JAVA:
-
+**
 package first;
 public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 	}
 }
-
+**
 Class main is "main"
 Program cannot run without main method i.e, public static void main....
-"System.out.print("write anything to display"); " ------- to print output
-println or \n for next line but do not use both. If you use both a new empty line will be created.
-**/t**will add space 
+**System.out.print("write anything to display"); ** ------- to print output
+**println or \n** for next line but do not use both. If you use both a new empty line will be created.
+**/t**   will add space 
