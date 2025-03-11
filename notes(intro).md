@@ -18,11 +18,15 @@ Program cannot run without main method i.e, public static void main....
 **sysout + ctrl + space** for System.out.println
 **VARIABLES**
 **DATATYPES**
-1.. Boolean - 1 byte --true or false
+1.. Boolean - 1 bit --true or false
 2.. int   - 1 byte --  -2 to 2
 3.. double   - 8 bytes -- 3.1415(upto 15 digits)
-4.. char - 2 bytes -- single character/letter/ASCII value
-5.. string - varies -- "Hello World"
+4.. char - 2 bytes -- single character/letter/ASCII value - single quotes -- 'f'
+5.. string (reference datatype) - varies -- "Hello World"
 6..float - 4 bytes -- 3.14(upto 6-7digits)
 7..long - 8 bytes --
 8..byte - 1 byte --
+9..short - 2 bytes
+char is primitive && string is reference
+primitive -- 8 types , stores data , holds 1 value, less memory, faster
+refernece -- unlimited(user defined) , stores address , hold more than 1 value, more memory, slower
