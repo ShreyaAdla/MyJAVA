@@ -35,3 +35,17 @@ datatype+vale
 int x;           DECLARATION
 x = 123;         ASSIGNMENT
 int x = 123;     INITIALIZATION
+
+**SWAPPING VARIABLES**
+		String a = "water";
+		String b = "juice"; 
+		//b = a;
+		//Creating another variable
+		String temp ;
+		temp = a;   //temp = a(water)
+		a=b;        //a = juice 
+		b= temp;    // b = water
+		System.out.println("a: " + a);
+		System.out.println("b: " + b);
+
+
