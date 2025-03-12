@@ -131,6 +131,17 @@ Output:   What is your name?
 		
 		System.out.println(num);
   **Creating a basic GUI (GRAPHICA; USER INTERFACE) Program**
+  		String name = JOptionPane.showInputDialog("What is ur name?");
+		JOptionPane.showMessageDialog(null, "Hello " + name);
+		//when u r using "showInputDialog" it is going to return string. So we need to convert it to integer
+		**TO CONVERT STRING INTO ANY OTHER DATATYPE USE the-- interger: use Integer.parseInt()**
+		
+		int age = Integer.parseInt(JOptionPane.showInputDialog("what is ur age?"));
+		JOptionPane.showMessageDialog(null, "Your age is " + age);
+		
+		double height = Double.parseDouble(JOptionPane.showInputDialog("what is ur height?"));
+		JOptionPane.showMessageDialog(null, "Your height is " + height + " in cm.");
+
          
 		
 
