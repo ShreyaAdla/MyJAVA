@@ -115,4 +115,10 @@ Output:   What is your name?
 	 My age is : 24
 	 My fave food is : Biryani
 
+**EXPRESSIONS**
+	Expression = operators + operands
+ 	operators = +,_,/,% (% gives remainder)
+	operands = values,variables,numbers, quantity
+
+ 
 
