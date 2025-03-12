@@ -51,7 +51,7 @@ int x = 123;     INITIALIZATION
 		System.out.println(name);
 		System.out.println("My name"+ " " +  " " + symbol   + " " + name);
 
-      **OUTPUT** = My number is : 123
+ **OUTPUT** = My number is : 123
 		   Number :3.14
 		   true
 	           @
