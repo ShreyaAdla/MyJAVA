@@ -130,8 +130,9 @@ Output:   What is your name?
 		//num--; //-1
 		
 		System.out.println(num);
-  **Creating a basic GUI (GRAPHICA; USER INTERFACE) Program**
-  		String name = JOptionPane.showInputDialog("What is ur name?");
+  **Creating a basic GUI (GRAPHICAL USER INTERFACE) Program**
+  		
+    		String name = JOptionPane.showInputDialog("What is ur name?");
 		JOptionPane.showMessageDialog(null, "Hello " + name);
 		//when u r using "showInputDialog" it is going to return string. So we need to convert it to integer
 		**TO CONVERT STRING INTO ANY OTHER DATATYPE USE the-- interger: use Integer.parseInt()**
