@@ -36,6 +36,28 @@ int x;           DECLARATION
 x = 123;         ASSIGNMENT
 int x = 123;     INITIALIZATION
 
+		//int x;  //declaration
+		//x=123;  //assignment
+		int x = 123; //initialization
+		double y = 3.14;
+		boolean z= true;
+		char symbol = '@';
+		String name = "Shreya";
+		//String S should be capital as it is reference data type
+		System.out.println("My number is : "+x);
+		System.out.println("Number :"+y );
+		System.out.println(z);
+		System.out.println(symbol);
+		System.out.println(name);
+		System.out.println("My name"+ " " +  " " + symbol   + " " + name);
+
+      **OUTPUT** = My number is : 123
+		   Number :3.14
+		   true
+	           @
+                   Shreya
+                   My name  @ Shreya
+
 **SWAPPING VARIABLES**
 		String a = "water";
 		String b = "juice"; 
@@ -47,5 +69,7 @@ int x = 123;     INITIALIZATION
 		b= temp;    // b = water
 		System.out.println("a: " + a);
 		System.out.println("b: " + b);
+   **OUTPUT** : a: juice
+                b: water
 
 
