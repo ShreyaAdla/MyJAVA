@@ -1,4 +1,4 @@
- JAVA INTRODUCTION
+JAVA INTRODUCTION
 JDK - JAVA DEVELOPMENT KIT - it contains developer tools that help us code
       JRE: JAVA RUNTIME ENV - it contains libraries and tool kits.
           JVM : JAVA VIRTUAL MACHINE -  which translates byte code to machine code 
