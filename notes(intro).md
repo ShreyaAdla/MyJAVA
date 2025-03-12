@@ -74,4 +74,9 @@ int x = 123;     INITIALIZATION
 
 **USER INPUT** IN JAVA
 WE need to use **Scanner** class. So we need to import the class **import java.util.Scanner;**
+ Procedure: first create scanner object
+            next ask question
+	    next ask user to give /p (scanner.nextLine(), scanner.nextInt())
+            next write the answer
+	    
 
