@@ -72,4 +72,6 @@ int x = 123;     INITIALIZATION
    **OUTPUT** : a: juice
                 b: water
 
+**USER INPUT** IN JAVA
+WE need to use **Scanner** class. So we need to import the class **import java.util.Scanner;**
 
