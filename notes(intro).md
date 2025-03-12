@@ -119,6 +119,18 @@ Output:   What is your name?
 	Expression = operators + operands
  	operators = +,_,/,% (% gives remainder)
 	operands = values,variables,numbers, quantity
+ 	//EXPERSSIONS
+		double num = 10;
+		//num = num + 10;
+		//num = num - 10;
+		//num = (double)num / 3; //(Divident as answer)(to get decimal use "DOUBLE")
+		
+		//num = num % 3;   // (remainder as answer)
+		//num++; //+1
+		//num--; //-1
+		
+		System.out.println(num);
+		
 
  
 
