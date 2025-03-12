@@ -142,6 +142,31 @@ Output:   What is your name?
 		
 		double height = Double.parseDouble(JOptionPane.showInputDialog("what is ur height?"));
 		JOptionPane.showMessageDialog(null, "Your height is " + height + " in cm.");
+  **MATHEMATICS IN JAVA**
+  		// MATHEMATICAL FUNCTION
+		/*
+		double x = -3.14;
+		double y = 4;
+		double z;
+		//z= Math.max(x, y);  //Finding max number
+		z= Math.min(x, y); //Finding minimum number
+		//z= Math.abs(x);  // if the given number is negative it makes positive
+		System.out.println(z);
+		*/
+		// FINDING A HYPOTENUSE OF TRIANGLE BY ASKING USER THE VALUES
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter x: ");
+		double x = scanner.nextDouble();
+		System.out.println("Enter y: ");
+		double y = scanner.nextDouble();
+		double z= Math.sqrt(x*x + y*y);
+		System.out.println("the hypotenuse is : " + z);
+  **OUTPUT** :  Enter x: 
+		4
+		Enter y: 
+		5
+		the hypotenuse is : 6.4031242374328485
+  
 
          
 		
