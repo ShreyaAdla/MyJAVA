@@ -74,9 +74,45 @@ int x = 123;     INITIALIZATION
 
 **USER INPUT** IN JAVA
 WE need to use **Scanner** class. So we need to import the class **import java.util.Scanner;**
- Procedure: first create scanner object
+ Procedure: first create scanner object i.e, Scanner scanner = new Scanner(System.in);
             next ask question
-	    next ask user to give /p (scanner.nextLine(), scanner.nextInt())
+	    next ask user to give i/p (scanner.nextLine(), scanner.nextInt())
             next write the answer
-	    
+**Program for USER INPUT**
+     	        //USER INPUT 
+		//USE Scanner for user input
+		// first create Scanner object as below
+		Scanner scanner = new Scanner(System.in);
+		
+		// Asking question
+		System.out.println("What is your name?");
+		//using scanner 
+		String myname = scanner.nextLine();
+		
+		//Asking 2nd question
+		System.out.println("What is your age?");
+		//using scanner for 2nd
+		int myage = scanner.nextInt();
+		scanner.nextLine();    // THIS IS IMPT TO ADD TO CLEAR THE SCANNER 
+		//Asking 3rd Question
+		System.out.println("What is your fav food?");
+		//using scanner for 3rd
+		String myfood = scanner.nextLine();
+		
+		
+		//printing answer
+		System.out.println("My name is : " + myname);
+		System.out.println("My age is : " + myage);
+		System.out.println("My fave food is : " + myfood);
+
+Output:   What is your name?
+	 Shreyau
+	 What is your age?
+	 24
+	 What is your fav food?
+	 Biryani
+	 My name is : Shreyau
+	 My age is : 24
+	 My fave food is : Biryani
+
 
